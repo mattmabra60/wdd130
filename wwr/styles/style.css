@@ -1,0 +1,173 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Times:ital,wght@0,400;0,700;1,400&family=Serif&family=Garamond:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* Define font variables */
+:root {
+  --h1-font: 'Times New Roman', serif;
+  --h4-font: 'Times New Roman', serif;
+  --p-font: 'Serif', 'Garamond', serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-size: 16px;
+  font-family: 'Times New Roman', serif;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center, justify;
+}
+
+nav {
+    font-size: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  font-weight: bold;
+}
+
+#hero {
+  position: relative;
+}
+
+#hero-box {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#hero-img {
+  width: 100%;
+  height: auto;
+}
+
+#hero-msg {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.home-title {
+  font-size: 3.5em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+h1 {
+    font-family: var(--h4-font);
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px; /* Adjust this value to control the spacing */
+}
+  
+h4 {
+    font-family: var(--h4-font);
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px; /* Adjust this value to control the spacing */
+}
+
+.button-box {
+  margin-top: 20px;
+}
+
+.book {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5cb85c;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card, 
+.mountains-card,
+.msg {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.msg h2 {
+  font-family: var(--h1-font);
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.msg p {
+  font-family: var(--p-font);
+  font-size: 1em;
+  color: #666;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.social img {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  #hero-msg {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav a {
+    margin-bottom: 10px;
+  }
+}
