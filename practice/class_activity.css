@@ -1,0 +1,55 @@
+body {
+    background-color: #fca6c9;
+}
+
+h1 {
+    font-family: sans-serif;;
+    font-weight: bold;
+    font-size: 54px;
+}
+
+.hover_change_color {
+    color: white;
+    transition: color 0.3s;
+}
+
+.hover_change_color:hover {
+    color: black;
+}
+
+blockquote {
+    color:white;
+}
+
+.qoute {
+    font-size: 64px;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+}
+
+main {
+    margin: 60px auto; /* Center the main element and provide top and bottom margin */
+    max-width: 500px; /* Set a maximum width for better readability */
+    text-align: left; /* Left-justify text within the main element */
+}
+
+  ol {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+footer {
+    font-family: sans-serif;
+}
