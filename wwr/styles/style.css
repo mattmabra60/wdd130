@@ -14,7 +14,7 @@
 }
 
 nav a {
-  font-size: 50px;
+  font-size: 25px;
   color: #bcdbff;
   font-weight: bold;
   text-decoration: none;
@@ -47,7 +47,7 @@ body {
 }
 
 #hero-img {
-  width: 100%;
+  width: 100%
   height: auto;
 }
 
@@ -89,6 +89,10 @@ h4 {
   height: 725px;
 }
 
+.background {
+  background-color: #bdd8ff;
+}
+
 main section{
   max-width: 1600px;
   margin: 0 auto;
@@ -107,7 +111,7 @@ main section{
   font-size: 25px;
 }
 
-.icon {
+.icon, .logo{
   width: 80px;
   height: 80px;
   margin-bottom: 10px;
