@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+
+p {
+    border: 10px solid black;
+    padding:50px;
+    background-color: aquamarine;
+    margin:100px auto;
+    width:400px;
+    text-align: center;
+}
+
+img {
+    display:block;
+    margin: 20px auto;
+    width: 400px;
+    padding: 20px;
+    border: 10px solid black;
+    border-radius: 50%;
+}
