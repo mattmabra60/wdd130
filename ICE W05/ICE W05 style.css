@@ -1,0 +1,25 @@
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #737373;
+}
+
+.background {
+    width: 100%;
+    max-width: 1600px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 450px;
+    margin-top: 0;
+}
+
+.card {
+    margin-top: 60px;
+    width: 300px;
+    height: 300px;
+    border: 15px solid #444444;
+    border-radius: 50%;
+}
