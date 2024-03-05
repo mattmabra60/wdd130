@@ -1,0 +1,19 @@
+body {
+    max-width: 800px;
+    background-color: #ffe4c4;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+h1 {    
+    text-align: center;
+    color: beige;
+    font-style: 'times';
+    text-decoration: underline;
+    background-color: #7f7f5e;
+    border-radius: 25px;
+}
+
+p {
+    font-weight: bold;
+}
