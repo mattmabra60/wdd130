@@ -9,6 +9,10 @@
 nav {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 nav a {
@@ -26,7 +30,6 @@ nav a:hover {
   color: #3f5e3c;
   font-weight: bold;
   transition: transform .5s;
-  box-shadow: 10px 10px 10px black;
 }
 
 .home-title {
@@ -41,7 +44,7 @@ header {
   display: grid;
   grid-template-columns: 150px auto;
   box-shadow: 10px 10px 10px 15px rgb(0, 0, 0);
-}
+}   
 
 body {
   background-color: #fef7e8;
@@ -97,7 +100,6 @@ body {
   justify-self: center;
   align-self: center;
 }
-
 
 .button-box {
   text-align: center;
