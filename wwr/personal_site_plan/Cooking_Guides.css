@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Times:ital,wght@0,400;0,700;1,400&family=Serif&family=Garamond:ital,wght@0,400;0,700;1,400&display=swap');
 
 #content {
+    grid-template-columns: 20% 20% 20% 20% 20%;
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -55,11 +56,83 @@ nav a:hover {
 }
 
 main {
-    display: grid;
     font-family: 'Courier New';
     font-weight: bold;
 }
 
+#Cooking_Guides {
+    padding: 25px;
+    margin-top: 50px;
+}
+
+.intro{
+    display: grid;
+    grid-column: 2;
+    padding: 20px;
+    border-radius: 50px;
+    width: 900px;
+    border: 10px solid #24272B;
+    background-color: #b1d2fa;
+}
+
+#header1 {
+    font-size: 27px;
+    text-align: center;
+    font-weight: 100%;
+    margin-bottom: 20px;
+}
+
+#paragraph1 p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Styles for image */
+.Cooking_Guides img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Styles for knife guide */
+#knife-guide {
+    flex-basis: 100%; /* Ensure it takes full width */
+    margin-bottom: 20px;
+}
+
+/* Styles for utensil container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px; /* Limit width */
+    margin: 0 auto; /* Center container */
+}
+
+/* Styles for utensil items */
+.utensil {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.utensil img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+
+#Cooking_Guides ul {
+    grid-columns: 2;
+}
+
+#Cooking_Guides ul li,
+#Cooking_Guides ol li {
+    font-size: 16px;
+    line-height: 1.6;
+}
 
 footer {
     background-color: #24272B;

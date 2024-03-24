@@ -97,6 +97,56 @@ main {
     }
 
 
+/* This is the second paragraph and image */
+#Why_Budget_Bites {
+    max-width: 1350px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 100px;
+    border: 10px solid #24272B; 
+    background-color:#b1d2fa;
+    padding: 25px;
+    display: flex;
+}
+
+#about-us {
+    max-width: 400px;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#paragraph2 {
+    font-size: 19.5px;
+}
+
+#table1 {
+    background-color: #444139;
+    color:antiquewhite;
+    max-width: 450px;
+    font-size: 14px;
+    padding: 30px;
+    border-radius: 100px;
+    border: 10px solid #24272B;
+}
+
+#header3{
+    text-align: center;
+}
+
+#paragraph2 p,
+#table1 p {
+    line-height: 1.6;
+}
+
+.Why_Budget_Bites_img {
+    max-width: 300px;
+    border-radius: 25px;
+    margin-right: 20px;
+    margin-top: 40px;
+    border: 10px solid #24272B;
+}
+
 /* This the is footer dont touch */
 footer {
     background-color: #24272B;
