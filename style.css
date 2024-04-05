@@ -24,7 +24,7 @@ nav a:hover {
     font-weight: bold;
     padding: 10px;
     border-radius: 5px;
-    transition: transform .5s;
+    transition: .5s ease;
     box-shadow: 10px 10px 10px black;
 }
 
@@ -113,3 +113,46 @@ footer .social img {
     margin: 0 5px;
     padding-top: 15px;
 }
+
+/* Image overlay for the A web component assignment */
+.image-container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 104%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #333;
+    border-radius: 50px;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    max-width: 300px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
