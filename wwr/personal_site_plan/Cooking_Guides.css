@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Times:ital,wght@0,400;0,700;1,400&family=Serif&family=Garamond:ital,wght@0,400;0,700;1,400&display=swap');
-
 #content {
-    grid-template-columns: 20% 20% 20% 20% 20%;
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -13,47 +10,49 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: #24272B;
-    padding: 1em 0;
-    display: grid;
-    grid-template-columns: 150px auto;
-}
+/* Nav don't touch */
+    header {
+        background-color: #24272B;
+        padding: 1em 0;
+        display: grid;
+        grid-template-columns: 150px auto;
+    }
 
-nav {
-    display: flex;
-    justify-content: space-around;
-    font-family: Tahoma;
-}
-  
-nav a {
-    font-size: 25px;
-    color: #faf5e1;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-    border-radius: 15px;
-    padding: 35px;
-}
-  
-nav a:hover {
-    background-color: #faf5e1;
-    color: #444139;
-    font-weight: bold;
-}
+    nav {
+        display: flex;
+        justify-content: space-around;
+        font-family: Tahoma;
+    }
+    
+    nav a {
+        font-size: 25px;
+        color: #faf5e1;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+        border-radius: 15px;
+        padding: 35px;
+    }
+    
+    nav a:hover {
+        background-color: #faf5e1;
+        color: #444139;
+        font-weight: bold;
+    }
 
-.logo {
-    max-width: 100px;
-    max-height: 100px;
-    border-radius: 50px;
-    margin-left: 50px;
-}
+    .logo {
+        max-width: 100px;
+        max-height: 100px;
+        border-radius: 50px;
+        margin-left: 50px;
+    }
 
-#logo_link {
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
-}
+    #logo_link {
+        padding-top: 5px;
+        justify-self: center;
+        align-self: center;
+    }
+/* Nav don't touch */
 
 main {
     font-family: 'Courier New';
@@ -61,18 +60,7 @@ main {
 }
 
 #Cooking_Guides {
-    padding: 25px;
     margin-top: 50px;
-}
-
-.intro{
-    display: grid;
-    grid-column: 2;
-    padding: 20px;
-    border-radius: 50px;
-    width: 900px;
-    border: 10px solid #24272B;
-    background-color: #b1d2fa;
 }
 
 #header1 {
@@ -90,50 +78,145 @@ main {
     margin: 0 auto;
 }
 
-/* Styles for image */
+.intro{
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 50px;
+    width: 900px;
+    border: 10px solid #24272B;
+    background-color: #b1d2fa;
+}
+
 .Cooking_Guides img {
-    max-width: 300px;
+    max-width: 365px;
     border-radius: 10px;
     margin-bottom: 20px;
+    margin-top: -590px;
+    margin-right: 250px;
+    float: right;
+    border-radius: 25px;
+    border: 10px solid #24272B;
 }
 
-/* Styles for knife guide */
 #knife-guide {
-    flex-basis: 100%; /* Ensure it takes full width */
+    margin-left: 250px;
+    margin-top: 50px;
     margin-bottom: 20px;
+    width: 500px;
+    background-color: #24272B;
+    padding: 50px;
+    border-radius: 50px;
+    color:#ccc;
 }
 
-/* Styles for utensil container */
+.knife-steps {
+    justify-content: space-between;
+    max-width: 800px;
+}
+
+.inst {
+    max-width: 400px;
+    margin-bottom: 20px;
+    background-color:#444139;
+    border-radius: 25px;
+    padding: 15px;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto; 
     justify-content: space-between;
-    max-width: 1000px; /* Limit width */
-    margin: 0 auto; /* Center container */
+    max-width: 1000px;
+    background-color:#24272B;
+    padding: 50px;
+    border-radius: 50px;
 }
 
-/* Styles for utensil items */
 .utensil {
     margin-bottom: 20px;
     text-align: center;
+    max-width: 300px;
+    background-color: #faf5e1;
+    border-radius: 30px;
+}
+
+.utensil-p {
+    font-size: 30px;
+    margin-top: 125px;
 }
 
 .utensil img {
+    width: 300px;
     max-width: 300px;
+    max-height: 200px;
+    border-radius: 15px;
+}
+
+.cooking-terminology {
+    max-width: 800px;
+    margin-left: 310px;
+    margin-top: 20px;
+    border: 20px solid #24272B;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    background-color: #24272B;
+    color: #ccc;
+    padding: 20px;
+}
+
+.cooking-terminology .bubble {
+    background-color: #f9c73d;
+    width:790px;
+    text-align: center;
+    line-height: 2em;
+    font-size: 30px;
+    color: #fff;
+    padding: 5px;
     border-radius: 10px;
+    margin-right: 20px;
 }
 
-
-#Cooking_Guides ul {
-    grid-columns: 2;
+.cooking-terminology ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0;
+    list-style-type: none;
 }
 
-#Cooking_Guides ul li,
-#Cooking_Guides ol li {
-    font-size: 16px;
-    line-height: 1.6;
+.cooking-terminology li {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
 }
 
+.cleaning-techniques {
+    max-width: 800px;
+}
+
+.cleaning-techniques h1 {
+    margin-left: 41.5%;
+    width: 800px;
+    text-align: center;
+    border: 20px solid #24272B;
+    border-radius: 50px;
+}
+
+.cleaning-techniques ol {
+    margin-left: 300px;
+    margin-bottom: -100px;
+    background-color: #24272B;
+    color: #ccc;
+    display: grid;
+    width: 800px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+/* Footer don't touch */
 footer {
     background-color: #24272B;
     padding: 25px 50px;
